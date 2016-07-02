@@ -1,0 +1,17 @@
+{
+"name": "sensing-world-raspsensorhub",
+"version": "1.0.0",
+"description": "",
+"main": "index.js",
+"scripts": {
+  "start": "nodemon index.js"
+},
+"author": "ylitormatech",
+"dependencies": {
+  "nodemon": "^1.9.2",
+  "mongoose": "^4.5.1",
+"express": "^4.14.0",
+"bluetooth-hci-socket": "0.4.4",
+"sensortag": "1.2.2"
+}
+}
